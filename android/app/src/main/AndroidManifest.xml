@@ -1,0 +1,74 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.CAMERA"/>
+  <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+  <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+  <!-- <uses-permission android:name="com.google.android.gms.permission.AD_ID" tools:node="remove"/> -->
+
+  <application android:name=".MainApplication" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" 
+  android:roundIcon="@mipmap/ic_launcher_round" android:usesCleartextTraffic="true" android:allowBackup="false"
+   android:extractNativeLibs="true" android:theme="@style/AppTheme">
+
+   
+    <meta-data android:name="com.dieam.reactnativepushnotification.notification_channel_id" android:value="FurEver"/>
+
+    <meta-data android:name="com.dieam.reactnativepushnotification.notification_channel_name.FurEver" android:value="Fur_Ever"/>
+
+    <meta-data android:name="com.dieam.reactnativepushnotification.notification_channel_description.FurEver" android:value="All activity notifications"/>
+
+    <meta-data android:name="com.dieam.reactnativepushnotification.notification_channel_name.rn-push-notification-channel-id-4-300" android:value="YOUR NOTIFICATION CHANNEL NAME FOR SILENT CHANNEL"/>
+
+    <meta-data android:name="com.dieam.reactnativepushnotification.notification_channel_description.rn-push-notification-channel-id-4-300" android:value="YOUR NOTIFICATION CHANNEL DESCRIPTION FOR SILENT CHANNEL"/>
+
+    <service android:name="io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService" />
+
+    <meta-data android:name="com.dieam.reactnativepushnotification.notification_foreground" android:value="false"/>
+    <!-- Change the resource name to your App's accent color - or any other color you want -->
+    <meta-data android:name="com.dieam.reactnativepushnotification.channel_create_default" android:value="false"/>
+
+    <meta-data android:name="com.dieam.reactnativepushnotification.notification_color" android:resource="@color/white"/>
+    <!-- or @android:color/{name} to use a standard color -->
+
+    <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+
+    <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+
+    <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@mipmap/ic_notification" />
+
+    <receiver android:exported="true" android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+        <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+        <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+      </intent-filter>
+    </receiver>
+
+    <service android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService" android:exported="true">
+      <intent-filter>
+        <action android:name="com.google.firebase.MESSAGING_EVENT" />
+      </intent-filter>
+    </service>
+
+    <uses-library android:name="org.apache.http.legacy" android:required="false" />
+
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAu6sqP1A3MKOr9RBNIsmah8FWPl8v2qgY"/>
+
+    <activity android:name=".MainActivity" android:label="@string/app_name" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:launchMode="singleTask" android:windowSoftInputMode="adjustPan" android:screenOrientation="portrait" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+  </application>
+
+</manifest>

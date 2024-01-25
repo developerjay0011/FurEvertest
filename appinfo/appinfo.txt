@@ -1,0 +1,22 @@
+sudo keytool -genkey -v -keystore furever.keystore -alias furever -keyalg RSA -keysize 2048 -validity 10000
+
+What is your first and last name?
+  [Unknown]:  furever
+What is the name of your organizational unit?
+  [Unknown]:  furever
+What is the name of your organization?
+  [Unknown]:  furever
+What is the name of your City or Locality?
+  [Unknown]:  surat
+What is the name of your State or Province?
+  [Unknown]:  gujarat           
+What is the two-letter country code for this unit?
+  [Unknown]:  91
+
+Is CN=furever, OU=furever, O=furever, L=surat, ST=gujarat, C=91 correct?
+
+
+storeFile file('furever.keystore')
+storePassword 'furever'
+keyAlias 'furever'
+keyPassword 'furever'

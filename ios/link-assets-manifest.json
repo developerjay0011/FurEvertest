@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Fredoka-Bold.ttf",
+      "sha1": "49a29e15ae38e96548e70ae3f09c21da2ba7da65"
+    },
+    {
+      "path": "src/assets/fonts/Fredoka-Light.ttf",
+      "sha1": "358f7fd527e77fc5e95a9db210d1a0e74ce2f37e"
+    },
+    {
+      "path": "src/assets/fonts/Fredoka-Medium.ttf",
+      "sha1": "dac864c17432337b69775a6a04a7f9673857a101"
+    },
+    {
+      "path": "src/assets/fonts/Fredoka-Regular.ttf",
+      "sha1": "753b91e83586d517b993f5ae5666cb4f2f29cbbe"
+    },
+    {
+      "path": "src/assets/fonts/Fredoka-SemiBold.ttf",
+      "sha1": "10738d8e8510bbd602eff944e35fc57254425f2e"
+    },
+    {
+      "path": "src/assets/fonts/SourceSansPro-Bold.ttf",
+      "sha1": "167ac25366e252f07c090a8113910337f3d5255b"
+    },
+    {
+      "path": "src/assets/fonts/SourceSansPro-Light.ttf",
+      "sha1": "df208d4edf8bf13483beec5c5893a3f474755439"
+    },
+    {
+      "path": "src/assets/fonts/SourceSansPro-Regular.ttf",
+      "sha1": "48d6928e08ba5e2ca1e15d754c146580b1c8febd"
+    },
+    {
+      "path": "src/assets/fonts/SourceSansPro-SemiBold.ttf",
+      "sha1": "3eeb4bae47e308c768d8c65a89480159d4e0e7c2"
+    }
+  ]
+}

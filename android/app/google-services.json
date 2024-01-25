@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "860130344472",
+    "project_id": "childcare-1e95e",
+    "storage_bucket": "childcare-1e95e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860130344472:android:3701c5190003e4c4a34d6d",
+        "android_client_info": {
+          "package_name": "com.furever.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860130344472-n43usja8c2upd6augra5rpvt3l4bck6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7p3sPmHuXVbBk-EoPF0FQw91h0zrYkGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860130344472-n43usja8c2upd6augra5rpvt3l4bck6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860130344472:android:22d29cbd0dedd4c0a34d6d",
+        "android_client_info": {
+          "package_name": "com.petzoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860130344472-l7jhg31vdvdp1kje2ag72da82p4q8hua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.petzoo",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "860130344472-n43usja8c2upd6augra5rpvt3l4bck6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7p3sPmHuXVbBk-EoPF0FQw91h0zrYkGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860130344472-n43usja8c2upd6augra5rpvt3l4bck6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860130344472:android:cd9ad063e39bf11aa34d6d",
+        "android_client_info": {
+          "package_name": "com.petzoopartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860130344472-oert0mvj6f43l6upespbiavb1eapdr3b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.petzoopartner",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "860130344472-n43usja8c2upd6augra5rpvt3l4bck6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7p3sPmHuXVbBk-EoPF0FQw91h0zrYkGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860130344472-n43usja8c2upd6augra5rpvt3l4bck6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
